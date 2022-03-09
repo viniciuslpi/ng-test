@@ -7,6 +7,7 @@ import { UniqueIdService } from './unique-id.service';
 describe(UniqueIdService.name, () => {
 
     let service: UniqueIdService = null;
+    
     beforeEach(() => {
         service = new UniqueIdService();
     })

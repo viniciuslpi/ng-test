@@ -11,7 +11,6 @@ export class AppComponent {
   public likes = 0;
 
   public like():void {
-    console.log('nao emiter')
     this.likes++;
   }
 
