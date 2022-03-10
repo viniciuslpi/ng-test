@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "test-ci": "ng test --reporters junit --watch=false --browsers ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -22,6 +23,7 @@
     "@fortawesome/angular-fontawesome": "^0.7.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "karma-junit-reporter": "^2.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "uuid": "^8.3.0",
